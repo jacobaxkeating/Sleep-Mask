@@ -1,0 +1,8 @@
+Default	True	2.0	3
+ALG	True	2.0	3
+PWM	True	2.0	3
+PWR	True	2.0	3
+PWRGND	True	2.0	3
+SWD	True	2.0	3
+XTAL	True	2.0	3
+False	True	False

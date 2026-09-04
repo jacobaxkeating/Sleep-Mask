@@ -1,0 +1,82 @@
+** Drc report for sleep_mask.kicad_pcb **
+** Created on 2026-09-02T11:28:22-0400 **
+
+** Found 17 DRC violations **
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.1000 mm; actual 0.0827 mm) (F.Cu)
+    Rule: board setup constraints; warning
+    @(125.0000 mm, 74.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+    @(138.6500 mm, 80.7000 mm): Zone [GND] on F.Cu, priority 2
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.2000 mm; actual 0.1464 mm)
+    Rule: board setup constraints silk; warning
+    @(126.7000 mm, 75.2964 mm): Rectangle on Edge.Cuts
+    @(127.7000 mm, 83.1000 mm): Rectangle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.2000 mm; actual 0.1165 mm)
+    Rule: board setup constraints silk; warning
+    @(126.7000 mm, 75.2964 mm): Rectangle on Edge.Cuts
+    @(147.7000 mm, 76.5500 mm): Arc of D10 on B.Silkscreen
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(167.8000 mm, 92.9000 mm): Via [GND] on F.Cu - B.Cu
+    @(167.8000 mm, 92.9000 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(155.5750 mm, 77.4000 mm): NPTH pad of SW1
+    @(155.8500 mm, 76.3500 mm): Pad MP [<no net>] of SW1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(155.5750 mm, 77.4000 mm): NPTH pad of SW1
+    @(156.4750 mm, 78.3000 mm): Pad 1 [GND] of SW1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(159.8250 mm, 77.4000 mm): NPTH pad of SW1
+    @(159.5500 mm, 76.3500 mm): Pad MP [<no net>] of SW1 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(159.8250 mm, 77.4000 mm): NPTH pad of SW1
+    @(158.9250 mm, 78.3000 mm): Pad 1 [GND] of SW1 on B.Cu
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.1650 mm)
+    Rule: board setup constraints silk; warning
+    @(148.0850 mm, 83.1750 mm): Segment of D1 on F.Silkscreen
+    @(147.6500 mm, 82.5600 mm): Polygon of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(139.8000 mm, 86.9150 mm): Segment of D6 on F.Silkscreen
+    @(139.8000 mm, 88.3150 mm): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(139.8000 mm, 88.3150 mm): Segment of D7 on F.Silkscreen
+    @(139.8000 mm, 88.1350 mm): Segment of D6 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(143.2200 mm, 88.1350 mm): Segment of D9 on F.Silkscreen
+    @(143.2200 mm, 88.3150 mm): Segment of D8 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(143.2200 mm, 88.3150 mm): Segment of D8 on F.Silkscreen
+    @(143.2200 mm, 88.1350 mm): Segment of D9 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(143.2200 mm, 89.5350 mm): Segment of D8 on F.Silkscreen
+    @(143.2200 mm, 88.1350 mm): Segment of D9 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(143.2200 mm, 89.5350 mm): Segment of D8 on F.Silkscreen
+    @(143.2200 mm, 88.1350 mm): Segment of D9 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(139.8000 mm, 86.9150 mm): Segment of D6 on F.Silkscreen
+    @(139.8000 mm, 88.3150 mm): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0600 mm)
+    Rule: board setup constraints silk; warning
+    @(139.8000 mm, 88.1350 mm): Segment of D6 on F.Silkscreen
+    @(139.8000 mm, 88.3150 mm): Segment of D7 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[missing_footprint]: Missing footprint H1 (MountingScrew)
+    Local override; warning
+[missing_footprint]: Missing footprint H2 (MountingScrew)
+    Local override; warning
+
+** End of Report **
