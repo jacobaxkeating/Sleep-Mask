@@ -1,10 +1,10 @@
 # Circadian Sleep Mask
 
-### Block Diagram
-![[Screenshot 2026-09-02 at 10.58.12 AM.png]]
+![Sleep mask Front PCB](outputs/pcb/renders/sleep_mask_top-iso.png)
+![Sleep mask Back PCB](outputs/pcb/renders/sleep_mask_back-iso.png)
+
+[Schematic (PDF)](docs/schematic.pdf)
 
 # Overview
-Battery powered sleep mask that illuminates the inside of the sleep mask slowly as time aproaches the user's alarm. The user indicates the number of hours they wish to sleep for by pressing the button on the housing then the indicated number of hours later the device lights up slowly.
-Waking the user this way allows ...
-This is the design page for the main hub of the device where LEDs will be connected via wire to board connectors and inserted into the sleep mask. 
+A battery powered sleep mask that gradually illuminates the inside of the mask as the user's alarm approaches. The user sets their sleep duration by pressing a button on the housing, and the device begins lighting up that many hours later. Waking this way is closer to how the body wakes naturally, easing the user out of sleep rather than jolting them awake. It reduces sleep inertia, the grogginess and disorientation that follows an abrupt alarm
 
